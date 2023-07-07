@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family:"Caprasimo";
+    src: url(./assets/fonts/Caprasimo-Regular.ttf);
+}
+@font-face {
+    font-family:"Montserrat";
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"Fasthand";
+    src: url(./assets/fonts/Fasthand-Regular.ttf);
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    }
+    
+    .container-centered {
+        margin: 30px auto;
+        width: 975px;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 15px;
+        line-height: 1  ;
+        background-color: #a0a0a2;
+    }
+    
+    .two-columns {
+        display:flex;
+    }
+    
+    .left-column {
+        width: 30;
+        color: #98989f;
+        background-color: #353536;
+    }
+    
+    .right-column {
+        width: 70%;
+        padding: auto;
+    }
+    
+    
+    header {
+        padding: 20px;
+        text-align:center;
+        background-color: #5b5b5c;
+    }
+  
+    header img {
+        border-radius: 45%;
+    }
+    
+    header h1{
+        margin-bottom: 1px;
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-family: "Fasthand";
+        color: #b1b3c9;
+    }
+    
+    main h2{
+        width: 150px;
+        margin: auto;   
+        padding: 10px;
+        text-align: center;
+        letter-spacing:  2px;
+        background-color: #a0a0a2;
+        color: #000000;
+        border-radius: 35%;
+        font-family: "Caprasimo";
+        font-weight: 300;
+    }
+
+    .Contact li img {
+        vertical-align:middle;
+        margin-right: 10px;
+    }
+
+    .Contact li p{
+        display:inline;
+        vertical-align:middle;
+    }   
+
+    .Contact a{
+        text-decoration:double;
+        color: #98989f;
+    }
+
+    .Contact li{
+        margin-bottom: 10px;
+        list-style-type: none;
+    }
+    .Skills li{
+        margin-bottom: 5px;
+        list-style-type:circle;
+    }
+    .Language li{
+        margin-bottom: 5px;
+        list-style-type:georgian;
+    }
+    .Language p strong{
+        font-family: "Montserrat";
+        font-weight: 700;
+    }
+   
+
+.right-column h2{
+    width: auto;
+    margin: auto;   
+    padding: 10px;
+    text-align: center;
+    letter-spacing:  2px;
+    background-color: #353536;
+    color: #98989f;
+    border-radius: 35%;
+    vertical-align: middle;
+    font-family: "Caprasimo";
+    font-weight: 300;
+}
+
+.right-column h5{
+    width: 550px;
+    margin: 20px;   
+    text-align: left;
+    letter-spacing:  1px;
+    color: #000000; 
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: medium  
+}
+
+
+.Work-experience p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: medium;
+    margin: 20px;
+}
+
+.Work-experience p strong{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.Education li{
+    list-style-type: disclosure-closed; 
+    line-height: 0.5px;
+    padding: 5px;
+}
+
+.Education a{
+    text-decoration:underline;
+    color: #450bcc;
+}
+
+    footer {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;    
+        color: #000000;
+        background-color: #b1b3c9;
+        font-size: 1.2rem;
+        font-weight: 900
+      }
+
