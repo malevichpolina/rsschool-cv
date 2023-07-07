@@ -1,5 +1,9 @@
 
 @font-face {
+    font-family:"Caprasimo";
+    src: url(./assets/fonts/Caprasimo-Regular.ttf);
+}
+@font-face {
     font-family:"Montserrat";
     src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
